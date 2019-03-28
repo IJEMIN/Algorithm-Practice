@@ -2,17 +2,17 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-public class QuickSortBundle
-{
+public class QuickSort{
+    
     public void Run()
     {
-        List<int> randomList = new List<int>(new int[] {23, 1, 5, 16, 42, 15, 4, 16, 8, 3});
-        List<int> sortedList = QuickSort(randomList);
+        var randomList = new List<int>(new int[] {23, 1, 5, 16, 42, 15, 4, 16, 8, 3});
+        var sortedList = Sort(randomList);
 
         Console.WriteLine(string.Join(", ", sortedList));
     }
 
-    private List<int> QuickSort(List<int> list)
+    private List<int> Sort(List<int> list)
     {
         if (list.Count < 2) return list;
 
@@ -23,22 +23,21 @@ public class QuickSortBundle
         var left = new List<int>();
         var right = new List<int>();
 
-        for (var i = 0; i < list.Count; i++)
+        foreach (var item in list)
         {
-            if (list[i] < pivotValue)
+            if (item < pivotValue)
             {
-                left.Add(list[i]);
+                left.Add(item);
             }
             else
             {
-                right.Add(list[i]);
+                right.Add(item);
             }
         }
 
-        List<int> result;
-        result = QuickSort(left);
+        var result = Sort(left);
         result.Add(pivotValue);
-        result.AddRange(QuickSort(right));
+        result.AddRange(Sort(right));
         return result;
     }
 }
