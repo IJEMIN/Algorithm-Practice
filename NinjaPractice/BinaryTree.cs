@@ -2,15 +2,15 @@ namespace NinjaPractice
 {
     public class BinaryTree
     {
-        private Node<int> root;
+        public Node root { get; private set; }
 
-        public Node<int> Insert(int value)
+        public Node Insert(int value)
         {
             var currentNode = root;
 
             if (currentNode == null)
             {
-                currentNode = new Node<int>(null, null, value);
+                currentNode = new Node(null, null, value);
 
                 return currentNode;
             }
@@ -21,19 +21,19 @@ namespace NinjaPractice
                     currentNode = value > currentNode.Value ? currentNode.Right : currentNode.Left;
                 }
                 
-                currentNode = new Node<int>(null, null, value);
+                currentNode = new Node(null, null, value);
             }
 
             return currentNode;
         }
         
-        public Node<int> InsertByRecurrence(Node<int> searchPoint, int value)
+        public Node InsertByRecurrence(Node searchPoint, int value)
         {
             var currentNode = searchPoint;
 
             if (currentNode == null)
             {
-                currentNode = new Node<int>(null, null, value);
+                currentNode = new Node(null, null, value);
 
                 return currentNode;
             }

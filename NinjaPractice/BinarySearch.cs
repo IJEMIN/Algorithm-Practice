@@ -8,19 +8,31 @@ namespace NinjaPractice
     // O(log(n))
     public class BinarySearch
     {
-        public void Run<T>(T[] items, T findTarget)
+        public void Run(int[] items, int findTarget)
         {
             Console.WriteLine("Items : " + string.Join(", ", items));
             Console.WriteLine("Find Target : " + findTarget);
 
-            
-      
+            foreach (var item in items)
+            {
+                tree.Insert(item);
+            }
+
+            var foundedNode = FindNode(tree.root, findTarget);
+
+            if (foundedNode != null)
+            {
+                Console.WriteLine("Target Found! - " + foundedNode.Value);
+            }
+            else
+            {
+                Console.WriteLine("Target is not listed in tree");
+            }
         }
 
-        public Node<int>[] nodes;
+        private BinaryTree tree = new BinaryTree();
 
-
-        public Node<int> FindNode(Node<int> root, int targetValue)
+        public Node FindNode(Node root, int targetValue)
         {
             var currentNode = root;
 
@@ -36,7 +48,7 @@ namespace NinjaPractice
         
         
 
-        public Node<int> FindNodeByRecurrence(Node<int> root, int targetValue)
+        public Node FindNodeByRecurrence(Node root, int targetValue)
         {
             if (root == null) return null;
             

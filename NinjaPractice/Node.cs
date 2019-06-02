@@ -2,21 +2,21 @@ using System;
 
 namespace NinjaPractice
 {
-    public class Node<T> where T: IComparable
+    public class Node
     {
-        private T _value;
+        private int _value;
 
-        public Node(Node<T> left, Node<T> right, T value)
+        public Node(Node left, Node right, int value)
         {
             Left = left;
             Right = right;
             _value = value;
         }
 
-        public Node<T> Left { get; set; }
+        public Node Left { get; set; }
 
-        public Node<T> Right { get; set; }
+        public Node Right { get; set; }
 
-        public T Value => _value;
+        public int Value => _value;
     }
 }
