@@ -8,14 +8,11 @@ namespace NinjaPractice
 
         public Node Insert(int value)
         {
-            if (m_root != null) return InsertByRecurrence(m_root, value);
+            return InsertByRecurrence(ref m_root, value);
             
-            m_root = new Node(null, null, value);
-            return m_root;
-
         }
         
-        private Node InsertByRecurrence(Node root, int value)
+        private Node InsertByRecurrence(ref Node root, int value)
         {
             if (root == null)
             {
@@ -23,11 +20,11 @@ namespace NinjaPractice
             }
             else if (value > root.Value)
             {
-                root.Right = InsertByRecurrence(root.Right, value);
+                root.Right = InsertByRecurrence(ref root.Right, value);
             }
             else
             {
-                root.Left = InsertByRecurrence(root.Left, value);
+                root.Left = InsertByRecurrence(ref root.Left, value);
             }
 
             return root;

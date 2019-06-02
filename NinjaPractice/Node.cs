@@ -13,9 +13,9 @@ namespace NinjaPractice
             _value = value;
         }
 
-        public Node Left { get; set; }
+        public Node Left;
 
-        public Node Right { get; set; }
+        public Node Right;
 
         public int Value => _value;
     }
