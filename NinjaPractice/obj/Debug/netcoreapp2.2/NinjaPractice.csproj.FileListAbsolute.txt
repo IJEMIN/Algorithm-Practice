@@ -9,3 +9,14 @@
 /Users/jeminlee/git-projects/NinjaPractice/NinjaPractice/obj/Debug/netcoreapp2.2/NinjaPractice.AssemblyInfo.cs
 /Users/jeminlee/git-projects/NinjaPractice/NinjaPractice/obj/Debug/netcoreapp2.2/NinjaPractice.dll
 /Users/jeminlee/git-projects/NinjaPractice/NinjaPractice/obj/Debug/netcoreapp2.2/NinjaPractice.pdb
+C:\Users\i_jem\git-projects\Algorithm-Practice\NinjaPractice\bin\Debug\netcoreapp2.2\NinjaPractice.deps.json
+C:\Users\i_jem\git-projects\Algorithm-Practice\NinjaPractice\bin\Debug\netcoreapp2.2\NinjaPractice.runtimeconfig.json
+C:\Users\i_jem\git-projects\Algorithm-Practice\NinjaPractice\bin\Debug\netcoreapp2.2\NinjaPractice.runtimeconfig.dev.json
+C:\Users\i_jem\git-projects\Algorithm-Practice\NinjaPractice\bin\Debug\netcoreapp2.2\NinjaPractice.dll
+C:\Users\i_jem\git-projects\Algorithm-Practice\NinjaPractice\bin\Debug\netcoreapp2.2\NinjaPractice.pdb
+C:\Users\i_jem\git-projects\Algorithm-Practice\NinjaPractice\obj\Debug\netcoreapp2.2\NinjaPractice.csprojAssemblyReference.cache
+C:\Users\i_jem\git-projects\Algorithm-Practice\NinjaPractice\obj\Debug\netcoreapp2.2\NinjaPractice.csproj.CoreCompileInputs.cache
+C:\Users\i_jem\git-projects\Algorithm-Practice\NinjaPractice\obj\Debug\netcoreapp2.2\NinjaPractice.AssemblyInfoInputs.cache
+C:\Users\i_jem\git-projects\Algorithm-Practice\NinjaPractice\obj\Debug\netcoreapp2.2\NinjaPractice.AssemblyInfo.cs
+C:\Users\i_jem\git-projects\Algorithm-Practice\NinjaPractice\obj\Debug\netcoreapp2.2\NinjaPractice.dll
+C:\Users\i_jem\git-projects\Algorithm-Practice\NinjaPractice\obj\Debug\netcoreapp2.2\NinjaPractice.pdb

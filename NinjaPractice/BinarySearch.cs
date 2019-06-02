@@ -18,11 +18,11 @@ namespace NinjaPractice
                 tree.Insert(item);
             }
 
-            var foundedNode = FindNode(tree.root, findTarget);
+            var foundedNode = FindNode(findTarget);
 
             if (foundedNode != null)
             {
-                Console.WriteLine("Target Found! - " + foundedNode.Value);
+                Console.WriteLine("Target Found! : " + foundedNode.Value);
             }
             else
             {
@@ -32,9 +32,9 @@ namespace NinjaPractice
 
         private BinaryTree tree = new BinaryTree();
 
-        public Node FindNode(Node root, int targetValue)
+        public Node FindNode(int targetValue)
         {
-            var currentNode = root;
+            var currentNode = tree.m_root;
 
             while (currentNode != null)
             {

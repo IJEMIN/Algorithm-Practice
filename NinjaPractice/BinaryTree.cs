@@ -1,53 +1,36 @@
+using System;
+
 namespace NinjaPractice
 {
     public class BinaryTree
     {
-        public Node root { get; private set; }
+        public Node m_root;
 
         public Node Insert(int value)
         {
-            var currentNode = root;
+            if (m_root != null) return InsertByRecurrence(m_root, value);
+            
+            m_root = new Node(null, null, value);
+            return m_root;
 
-            if (currentNode == null)
-            {
-                currentNode = new Node(null, null, value);
-
-                return currentNode;
-            }
-            else
-            {
-                while(currentNode != null)
-                {
-                    currentNode = value > currentNode.Value ? currentNode.Right : currentNode.Left;
-                }
-                
-                currentNode = new Node(null, null, value);
-            }
-
-            return currentNode;
         }
         
-        public Node InsertByRecurrence(Node searchPoint, int value)
+        private Node InsertByRecurrence(Node root, int value)
         {
-            var currentNode = searchPoint;
-
-            if (currentNode == null)
+            if (root == null)
             {
-                currentNode = new Node(null, null, value);
-
-                return currentNode;
+                root = new Node(null, null, value);
             }
-
-            if (value > currentNode.Value)
+            else if (value > root.Value)
             {
-                currentNode.Right = InsertByRecurrence(currentNode.Right, value);
+                root.Right = InsertByRecurrence(root.Right, value);
             }
             else
             {
-                currentNode.Left = InsertByRecurrence(currentNode.Right, value);
+                root.Left = InsertByRecurrence(root.Left, value);
             }
 
-            return currentNode;
+            return root;
         }
     }
 }
