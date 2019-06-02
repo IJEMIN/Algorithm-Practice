@@ -1,17 +1,21 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/jeminlee/git-projects/NinjaPractice/NinjaPractice/NinjaPractice.csproj",
+    "projectUniqueName": "C:\\Users\\i_jem\\git-projects\\Algorithm-Practice\\NinjaPractice\\NinjaPractice.csproj",
     "projectName": "NinjaPractice",
-    "projectPath": "/Users/jeminlee/git-projects/NinjaPractice/NinjaPractice/NinjaPractice.csproj",
-    "outputPath": "/Users/jeminlee/git-projects/NinjaPractice/NinjaPractice/obj/",
+    "projectPath": "C:\\Users\\i_jem\\git-projects\\Algorithm-Practice\\NinjaPractice\\NinjaPractice.csproj",
+    "outputPath": "C:\\Users\\i_jem\\git-projects\\Algorithm-Practice\\NinjaPractice\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {}
