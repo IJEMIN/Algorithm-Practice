@@ -10,7 +10,7 @@ namespace NinjaPractice
 
             new SelectionSort().Run();
 
-            new BinarySearch().Run();
+            //new BinarySearch().Run();
         }
     }
 }

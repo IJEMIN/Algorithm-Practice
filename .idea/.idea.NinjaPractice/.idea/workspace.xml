@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20c59cb-7b65-4f13-a6f5-0775c0e4d2a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NinjaPractice/Node.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NinjaPractice/BinaryTree.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaPractice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaPractice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinjaPractice/obj/Debug/netcoreapp2.2/NinjaPractice.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NinjaPractice/obj/Debug/netcoreapp2.2/NinjaPractice.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinjaPractice/obj/Debug/netcoreapp2.2/NinjaPractice.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NinjaPractice/obj/Debug/netcoreapp2.2/NinjaPractice.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinjaPractice/obj/Debug/netcoreapp2.2/NinjaPractice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NinjaPractice/obj/Debug/netcoreapp2.2/NinjaPractice.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinjaPractice/obj/NinjaPractice.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NinjaPractice/obj/NinjaPractice.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinjaPractice/obj/NinjaPractice.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/NinjaPractice/obj/NinjaPractice.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinjaPractice/obj/NinjaPractice.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/NinjaPractice/obj/NinjaPractice.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinjaPractice/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/NinjaPractice/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinjaPractice/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/NinjaPractice/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NinjaPractice/BinarySearch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NinjaPractice/BinarySearch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NinjaPractice/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NinjaPractice/Node.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NinjaPractice/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NinjaPractice/Program.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +20,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NinjaPractice/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
-                <marker date="1559482876895" expanded="true" signature="38:258" ph="{...}" />
-                <marker date="1559482876895" expanded="true" signature="58:256" ph="{...}" />
-                <marker date="1559482876895" expanded="true" signature="104:250" ph="{...}" />
+                <marker date="1559485414366" expanded="true" signature="38:260" ph="{...}" />
+                <marker date="1559485414366" expanded="true" signature="58:258" ph="{...}" />
+                <marker date="1559485414366" expanded="true" signature="104:252" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NinjaPractice/BinaryTree.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <marker date="1559486378101" expanded="true" signature="23:1453" ph="{...}" />
+                <marker date="1559486378101" expanded="true" signature="53:1451" ph="{...}" />
+                <marker date="1559486378101" expanded="true" signature="135:873" ph="{...}" />
+                <marker date="1559486378101" expanded="true" signature="219:348" ph="{...}" />
+                <marker date="1559486378101" expanded="true" signature="365:830" ph="{...}" />
+                <marker date="1559486378101" expanded="true" signature="422:735" ph="{...}" />
+                <marker date="1559486378101" expanded="true" signature="491:592" ph="{...}" />
+                <marker date="1559486378101" expanded="true" signature="617:717" ph="{...}" />
+                <marker date="1559486378101" expanded="true" signature="960:1445" ph="{...}" />
+                <marker date="1559486378101" expanded="true" signature="1051:1180" ph="{...}" />
+                <marker date="1559486378101" expanded="true" signature="1224:1321" ph="{...}" />
+                <marker date="1559486378101" expanded="true" signature="1338:1435" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -77,33 +95,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NinjaPractice/BinarySearch.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="320">
+              <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
               <folding>
-                <marker date="1559482876891" expanded="false" signature="6:47" ph="..." />
-                <marker date="1559482876891" expanded="true" signature="72:995" ph="{...}" />
-                <marker date="1559482876891" expanded="true" signature="104:993" ph="{...}" />
-                <marker date="1559482876891" expanded="true" signature="136:295" ph="{...}" />
-                <marker date="1559482876891" expanded="true" signature="347:987" ph="{...}" />
-                <marker date="1559482876891" expanded="true" signature="449:953" ph="{...}" />
-                <marker date="1559482876891" expanded="true" signature="574:645" ph="{...}" />
-                <marker date="1559482876891" expanded="true" signature="666:939" ph="{...}" />
-                <marker date="1559482876891" expanded="true" signature="732:814" ph="{...}" />
-                <marker date="1559482876891" expanded="true" signature="839:921" ph="{...}" />
+                <marker date="1559486246416" expanded="false" signature="6:92" ph="..." />
+                <marker date="1559486246416" expanded="true" signature="117:2003" ph="{...}" />
+                <marker date="1559486246416" expanded="true" signature="124:176" ph="/* 룩업 연산이 빠르다 &lt;- 특정 노드의 위치를 알아내는 연산 ... */" />
+                <marker date="1559486246416" expanded="true" signature="206:2001" ph="{...}" />
+                <marker date="1559486246416" expanded="true" signature="264:437" ph="{...}" />
+                <marker date="1559486246416" expanded="true" signature="541:869" ph="{...}" />
+                <marker date="1559486246416" expanded="true" signature="628:833" ph="{...}" />
+                <marker date="1559486246416" expanded="true" signature="967:1277" ph="{...}" />
+                <marker date="1559486246416" expanded="true" signature="1355:1995" ph="{...}" />
+                <marker date="1559486246416" expanded="true" signature="1457:1961" ph="{...}" />
+                <marker date="1559486246416" expanded="true" signature="1582:1653" ph="{...}" />
+                <marker date="1559486246416" expanded="true" signature="1674:1947" ph="{...}" />
+                <marker date="1559486246416" expanded="true" signature="1740:1822" ph="{...}" />
+                <marker date="1559486246416" expanded="true" signature="1847:1929" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NinjaPractice/Node.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            <state relative-caret-position="225">
+              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding>
-                <marker date="1559484174134" expanded="true" signature="48:401" ph="{...}" />
-                <marker date="1559484174134" expanded="true" signature="75:399" ph="{...}" />
-                <marker date="1559484174134" expanded="true" signature="235:349" ph="{...}" />
+                <marker date="1559485977698" expanded="true" signature="38:407" ph="{...}" />
+                <marker date="1559485977698" expanded="true" signature="86:405" ph="{...}" />
+                <marker date="1559485977698" expanded="true" signature="177:277" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NinjaPractice/BubbleSort.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="510">
               <caret line="35" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <marker date="1559482876892" expanded="false" signature="6:39" ph="..." />
@@ -150,6 +172,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Find</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -158,6 +185,7 @@
     <setting file="file://$PROJECT_DIR$/NinjaPractice/Node.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NinjaPractice/MergeSort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NinjaPractice/BubbleSort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NinjaPractice/BinaryTree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NinjaPractice/BinarySearch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NinjaPractice/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NinjaPractice/QuickSort.cs" root0="FORCE_HIGHLIGHTING" />
@@ -169,17 +197,16 @@
         <option value="$PROJECT_DIR$/NinjaPractice/BubbleSort.cs" />
         <option value="$PROJECT_DIR$/NinjaPractice/QuickSort.cs" />
         <option value="$PROJECT_DIR$/NinjaPractice/SelectionSort.cs" />
-        <option value="$PROJECT_DIR$/NinjaPractice/BinarySearch.cs" />
         <option value="$PROJECT_DIR$/NinjaPractice/Program.cs" />
-        <option value="$PROJECT_DIR$/NinjaPractice/BinaryTree.cs" />
         <option value="$PROJECT_DIR$/NinjaPractice/Node.cs" />
+        <option value="$PROJECT_DIR$/NinjaPractice/BinarySearch.cs" />
+        <option value="$PROJECT_DIR$/NinjaPractice/BinaryTree.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1094" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -212,6 +239,9 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
@@ -266,12 +296,12 @@
       <workItem from="1553770492074" duration="12000" />
       <workItem from="1553771022884" duration="1244000" />
       <workItem from="1555835264047" duration="2257000" />
-      <workItem from="1559483520108" duration="654000" />
+      <workItem from="1559483520108" duration="2876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4167000" />
+    <option name="totallyTimeSpent" value="6389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -283,7 +313,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1094" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580645" />
@@ -332,18 +362,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NinjaPractice/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <marker date="1559482876895" expanded="true" signature="38:258" ph="{...}" />
-            <marker date="1559482876895" expanded="true" signature="58:256" ph="{...}" />
-            <marker date="1559482876895" expanded="true" signature="104:250" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NinjaPractice/QuickSort.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -378,21 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NinjaPractice/BubbleSort.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <marker date="1559482876892" expanded="false" signature="6:39" ph="..." />
-            <marker date="1559482876892" expanded="true" signature="64:937" ph="{...}" />
-            <marker date="1559482876892" expanded="true" signature="88:935" ph="{...}" />
-            <marker date="1559482876892" expanded="true" signature="153:766" ph="{...}" />
-            <marker date="1559482876892" expanded="true" signature="333:727" ph="{...}" />
-            <marker date="1559482876892" expanded="true" signature="530:709" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NinjaPractice/MergeSort.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -413,33 +416,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NinjaPractice/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1559485414366" expanded="true" signature="38:260" ph="{...}" />
+            <marker date="1559485414366" expanded="true" signature="58:258" ph="{...}" />
+            <marker date="1559485414366" expanded="true" signature="104:252" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinjaPractice/BubbleSort.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <marker date="1559482876892" expanded="false" signature="6:39" ph="..." />
+            <marker date="1559482876892" expanded="true" signature="64:937" ph="{...}" />
+            <marker date="1559482876892" expanded="true" signature="88:935" ph="{...}" />
+            <marker date="1559482876892" expanded="true" signature="153:766" ph="{...}" />
+            <marker date="1559482876892" expanded="true" signature="333:727" ph="{...}" />
+            <marker date="1559482876892" expanded="true" signature="530:709" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NinjaPractice/BinarySearch.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="320">
+          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
           <folding>
-            <marker date="1559482876891" expanded="false" signature="6:47" ph="..." />
-            <marker date="1559482876891" expanded="true" signature="72:995" ph="{...}" />
-            <marker date="1559482876891" expanded="true" signature="104:993" ph="{...}" />
-            <marker date="1559482876891" expanded="true" signature="136:295" ph="{...}" />
-            <marker date="1559482876891" expanded="true" signature="347:987" ph="{...}" />
-            <marker date="1559482876891" expanded="true" signature="449:953" ph="{...}" />
-            <marker date="1559482876891" expanded="true" signature="574:645" ph="{...}" />
-            <marker date="1559482876891" expanded="true" signature="666:939" ph="{...}" />
-            <marker date="1559482876891" expanded="true" signature="732:814" ph="{...}" />
-            <marker date="1559482876891" expanded="true" signature="839:921" ph="{...}" />
+            <marker date="1559486246416" expanded="false" signature="6:92" ph="..." />
+            <marker date="1559486246416" expanded="true" signature="117:2003" ph="{...}" />
+            <marker date="1559486246416" expanded="true" signature="124:176" ph="/* 룩업 연산이 빠르다 &lt;- 특정 노드의 위치를 알아내는 연산 ... */" />
+            <marker date="1559486246416" expanded="true" signature="206:2001" ph="{...}" />
+            <marker date="1559486246416" expanded="true" signature="264:437" ph="{...}" />
+            <marker date="1559486246416" expanded="true" signature="541:869" ph="{...}" />
+            <marker date="1559486246416" expanded="true" signature="628:833" ph="{...}" />
+            <marker date="1559486246416" expanded="true" signature="967:1277" ph="{...}" />
+            <marker date="1559486246416" expanded="true" signature="1355:1995" ph="{...}" />
+            <marker date="1559486246416" expanded="true" signature="1457:1961" ph="{...}" />
+            <marker date="1559486246416" expanded="true" signature="1582:1653" ph="{...}" />
+            <marker date="1559486246416" expanded="true" signature="1674:1947" ph="{...}" />
+            <marker date="1559486246416" expanded="true" signature="1740:1822" ph="{...}" />
+            <marker date="1559486246416" expanded="true" signature="1847:1929" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NinjaPractice/Node.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="225">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
-            <marker date="1559484174134" expanded="true" signature="48:401" ph="{...}" />
-            <marker date="1559484174134" expanded="true" signature="75:399" ph="{...}" />
-            <marker date="1559484174134" expanded="true" signature="235:349" ph="{...}" />
+            <marker date="1559485977698" expanded="true" signature="38:407" ph="{...}" />
+            <marker date="1559485977698" expanded="true" signature="86:405" ph="{...}" />
+            <marker date="1559485977698" expanded="true" signature="177:277" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinjaPractice/BinaryTree.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <marker date="1559486378101" expanded="true" signature="23:1453" ph="{...}" />
+            <marker date="1559486378101" expanded="true" signature="53:1451" ph="{...}" />
+            <marker date="1559486378101" expanded="true" signature="135:873" ph="{...}" />
+            <marker date="1559486378101" expanded="true" signature="219:348" ph="{...}" />
+            <marker date="1559486378101" expanded="true" signature="365:830" ph="{...}" />
+            <marker date="1559486378101" expanded="true" signature="422:735" ph="{...}" />
+            <marker date="1559486378101" expanded="true" signature="491:592" ph="{...}" />
+            <marker date="1559486378101" expanded="true" signature="617:717" ph="{...}" />
+            <marker date="1559486378101" expanded="true" signature="960:1445" ph="{...}" />
+            <marker date="1559486378101" expanded="true" signature="1051:1180" ph="{...}" />
+            <marker date="1559486378101" expanded="true" signature="1224:1321" ph="{...}" />
+            <marker date="1559486378101" expanded="true" signature="1338:1435" ph="{...}" />
           </folding>
         </state>
       </provider>

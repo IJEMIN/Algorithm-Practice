@@ -1,32 +1,22 @@
+using System;
+
 namespace NinjaPractice
 {
-    public class Node<T>
+    public class Node<T> where T: IComparable
     {
-        private Node<T> left;
-        private Node<T> right;
-
-        private T value;
+        private T _value;
 
         public Node(Node<T> left, Node<T> right, T value)
         {
-            this.left = left;
-            this.right = right;
-            this.value = value;
+            Left = left;
+            Right = right;
+            _value = value;
         }
 
-        public Node<T> GetLeft()
-        {
-            return left;
-        }
+        public Node<T> Left { get; set; }
 
-        public Node<T> GetRight()
-        {
-            return right;
-        }
+        public Node<T> Right { get; set; }
 
-        public T GetValue()
-        {
-            return value;
-        }
+        public T Value => _value;
     }
 }
