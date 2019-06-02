@@ -1,15 +1,18 @@
 using System;
+using System.Reflection.Metadata.Ecma335;
 
 namespace NinjaPractice
 {
     public class BinaryTree
     {
-        public Node m_root;
+        private Node m_Root;
 
+        public Node Root => m_Root;
+        
+        
         public Node Insert(int value)
         {
-            return InsertByRecurrence(ref m_root, value);
-            
+            return InsertByRecurrence(ref m_Root, value); 
         }
         
         private Node InsertByRecurrence(ref Node root, int value)

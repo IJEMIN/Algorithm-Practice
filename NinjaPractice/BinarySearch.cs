@@ -34,7 +34,7 @@ namespace NinjaPractice
 
         public Node FindNode(int targetValue)
         {
-            var currentNode = tree.m_root;
+            var currentNode = tree.Root;
 
             while (currentNode != null)
             {
