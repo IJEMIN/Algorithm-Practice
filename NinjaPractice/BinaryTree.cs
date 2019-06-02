@@ -17,17 +17,10 @@ namespace NinjaPractice
             if (root == null)
             {
                 root = new Node(null, null, value);
-            }
-            else if (value > root.Value)
-            {
-                root.Right = InsertByRecurrence(ref root.Right, value);
-            }
-            else
-            {
-                root.Left = InsertByRecurrence(ref root.Left, value);
+                return root;
             }
 
-            return root;
+            return value > root.Value ? InsertByRecurrence(ref root.Right, value) : InsertByRecurrence(ref root.Left, value);
         }
     }
 }
